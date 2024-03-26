@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding :0px;
+    font-family:sans-serif;
+  }
+  
+  form{
+    /* top: auto; */
+    width:500px;
+    margin:auto;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding:10px;
+  }
+
+  form h2{
+    margin: 10px;
+  }
+
+  form label{
+    display: block;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  form input{
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+  }
+
+  form button{
+    margin-left: 10px;
+    padding: 10px 25px;
+    background-color: rgb(150, 150, 233);
+    border: none;
+    cursor: pointer;
+  }
+
+  .main{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .items{
+    flex-basis: 20%;
+    margin: 1%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 1%;
+    position: relative;
+  }
+
+  .items span{
+    font-size: 20px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+  }
+
+  .items h5{
+    margin: 10px 0px;
+  }
